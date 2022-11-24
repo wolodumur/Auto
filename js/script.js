@@ -35,4 +35,9 @@ $(document).ready(function(){
 			}
 		 ]
 	});
+	$('.slider3').slick({
+		arrows:false,
+		dots: true,
+		slidesToShow: 1,
+	});
 });
