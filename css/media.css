@@ -17,15 +17,6 @@
 	.footer__menu{
 		margin-right: 20px;
 	}
-	.slider3 .slick-dots{
-		left: 26%;
-		-webkit-transform: translateX(-50%);
-		    -ms-transform: translateX(-50%);
-		        transform: translateX(-50%);
-	}
-	.slider22__item{
-		margin: 30px 9% 20px;
-	}
 	.slider__img img{
 		width: 100%;
 	}
@@ -42,30 +33,20 @@
 	.h2__start{
 		padding-left: 15px;
 	}
-}
-
-@media (max-width:1070px){
 	.slider3 .slick-dots{
-		left: 28%;
+		left: 25%;
 		-webkit-transform: translateX(-50%);
 		    -ms-transform: translateX(-50%);
 		        transform: translateX(-50%);
 	}
-}
-
-@media (max-width:1020px){
 	.slider22__item{
-		margin: 30px 10% 20px;
-	}
-	.slider3 .slick-dots{
-		left: 30%;
-		-webkit-transform: translateX(-50%);
-		    -ms-transform: translateX(-50%);
-		        transform: translateX(-50%);
+		padding: 25px 10% 30px;
 	}
 }
-
 @media (max-width:992px){
+	.nlo{
+		margin-top: 60px;
+	}
 	.info{
 		margin-top: 50px;
 		margin-left: 40px;
@@ -78,18 +59,6 @@
 	}
 	.about__foto{
 		display: none;
-	}
-	.flex__slider{
-		display: block;
-	}
-	.slider22__item{
-		margin: 55px auto 60px;
-	}
-	.slider3 .slick-dots{
-		left: 50%;
-		-webkit-transform: translateX(-50%);
-		    -ms-transform: translateX(-50%);
-		        transform: translateX(-50%);
 	}
 	.about__text{
 		padding: 0px 16px 0 16px;
@@ -114,9 +83,21 @@
 	.register__panel{
 		margin-left: 5px;
 	}
+	.flex__slider{
+      display: block;
+	}
+	.slider22__item{
+		width: 100%;
+		padding: 55px 10% 80px;
+	}
+	.slider3 .slick-dots{
+		bottom: 15%;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		        transform: translateX(-50%);
+	}
 }
-
-
 @media (max-width:900px){
 	body.lock{
 		overflow: hidden;
@@ -263,9 +244,6 @@
 	.login{
 		padding: 9px 32px;
 	}
-	.slider__img img{
-		width: 100%;
-	}
 	.item{
 		max-width: 540px;
 	}
@@ -277,7 +255,6 @@
 	}
 	
 }
-
 @media (max-width:576px){
 	.steps{
 		display: block;
@@ -305,17 +282,11 @@
 		font-size: 34.8936px;
 		line-height: 42px;
 	}
-	.slider22__item{
-		margin: 55px auto 80px;
-	}
 	.slider3 .slick-dots{
 		bottom:12%;
 	}
 	.slider__item{
 		max-width: 540px;
-	}
-	.slider__img img{
-		width: 100%;
 	}
 	.item{
 		max-width: 540px;

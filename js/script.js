@@ -15,7 +15,7 @@ $(document).ready(function(){
 		slidesToShow: 4,
 		responsive: [
 			{
-				breakpoint: 1100,
+				breakpoint: 1140,
 				settings: {
 				  slidesToShow: 3,
 				}
